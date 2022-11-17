@@ -1,0 +1,5 @@
+@import './variables.scss';
+
+@function rem($pxValue) {
+  @return #{calc($pxValue / $base)}rem;
+}

@@ -1,0 +1,112 @@
+{
+  "HEADER": {
+    "TRANSFER": "Transfer from card to card",
+    "COUNTRIES": "To more than <span class='header__countries'>60 countries</span> of the world from the cards of Paritetbank OJSC"
+  },
+  "FOOTER": {
+    "PARITETBANK": "2022 «Paritetbank». 100233809",
+    "CONTACT": "Contact center - 171"
+  },
+  "CARD": {
+    "FROM": "From card",
+    "TO": "To card",
+    "BANK": "Any bank",
+    "NUMBER": "Card number",
+    "EXP": "Term",
+    "CVC": "CVC",
+    "CARDHOLDER": "Name and surname of the cardholder",
+    "PLACEHOLDER_NAME": "Ivan Ivanov",
+    "PLACEHOLDER_EXP": "MM/YY"
+  },
+  "MAIN": {
+    "NUMBER": "By card number",
+    "PHONE": "By phone number",
+    "AMOUNT": "Transfer amount",
+    "AGREEMENT": "I agree with the terms of the",
+    "OFFER": "Public Offer",
+    "COMMISSION": "Commission",
+    "COMMISSION_DESCRIPTION": "Transfers between cards of Paritetbank OJSC in the application and the Internet banking system «iParitet» are carried out without charging a commission. Issuing banks can charge additional transfer fees.",
+    "COMMISSION_LINK": "Learn more about limits and fees.",
+    "TRANSFER": "Transfer",
+    "VISA": "International transfers to Visa cards are possible",
+    "MC": "International transfers to Mastercard cards are possible",
+    "VISA_COUNTRIES": {
+      "CIS": "to the CIS countries: Azerbaijan, Armenia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Uzbekistan",
+      "ETC": "and also to Georgia"
+    },
+    "MC_COUNTRIES": {
+      "CIS": "to the CIS countries: Azerbaijan, Armenia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Uzbekistan",
+      "EUROPE": "to European countries: Austria, Albania, Andorra, Belgium, Bulgaria, Bosnia and Herzegovina, Vatican, Great Britain, Hungary, Germany, Greece, Denmark, Ireland, Iceland, Spain, Italy, Latvia, Lithuania, Liechtenstein, Luxembourg, Malta, Monaco, Netherlands, Poland, Portugal, Romania, San Marino, North Macedonia, Serbia, Slovakia, Slovenia, Finland, France, Croatia, Montenegro, Czech Republic, Switzerland, Sweden, Estonia",
+      "ASIA": "to Asian countries: Australia, Vietnam, India, Indonesia, China, Malaysia, New Zealand, Singapore, Thailand, Philippines, South Korea, Japan",
+      "ETC": "as well as to Georgia, Canada, UAE, Turkey and the USA"
+    },
+    "FROM_TO": "from 0 to 3000"
+  },
+  "RESULT": {
+    "SUCCESS": "Payment completed successfully!",
+    "FAILURE": "Unfortunately, your payment was declined",
+    "BACK": "Back to site",
+    "PDF": "Download PDF file",
+    "SENDER_NUMBER": "Sender card number",
+    "RECIPIENT_NUMBER": "Beneficiary card number",
+    "AMOUNT": "Sum",
+    "COMMISSION": "The transfer fee",
+    "TOTAL": "Total",
+    "AUTH_CODE": "Authorization code",
+    "DATE": "Date of operation",
+    "NUMBER": "Operation number",
+    "RRN": "RNN",
+    "CAUSE": "Cause",
+    "RESPONSE_CODE": "Response code"
+  },
+  "NOTIFICATION": {
+    "TITLE": "Check the correctness filling out the form",
+    "CARD": " Transfer from the specified card forbidden",
+    "NUMBER": "Correct the recipient's card number",
+    "AMOUNT": "Invalid transfer amount",
+    "CONFIRMATION": "Confirmation required"
+  },
+  "ERROR": {
+    "DATA": "Data entered incorrectly",
+    "AMOUNT": "Invalid transfer amount",
+    "HOLDER": "Invalid cardholder details",
+    "ERROR": "Error!",
+    "TRANSFER": "Unable to make a P2P transfer",
+    "RESULT": "Unable to get P2P transfer result",
+    "ADDITIONAL_FIELDS": "Additional fields required"
+  },
+  "LIMITS": {
+    "LIMITS": "Limits and tariffs",
+    "NOTE": "* Some banks, using the cards of which the transfer is made, may charge an additional commission",
+    "KEYS": {
+      "SENDER": "Sender's cards",
+      "RECIPIENT": "Recipient's cards",
+      "CURRENCY": "Transfer currency",
+      "FROM_RESIDENT_TO_PARITET": "Transfer from cards of other resident banks to Paritetbank cards",
+      "BETWEEN_PARITET": "Transfer between Paritetbank cards",
+      "FROM_PARITET_TO_RESIDENT": "Transfer from Paritetbank cards to cards of other resident banks; between cards of other resident banks",
+      "FROM_PARITET_TO_NOT_RESIDENT": "Transfer from Paritetbank cards to cards of other non-resident banks",
+      "MIN_AMOUNT": "Minimum amount of one transfer",
+      "MAX_AMOUNT": "Maximum amount of one transfer",
+      "DAY": "Number and amount of transfers per day",
+      "4DAYS": "Number and amount of transfers for 4 days",
+      "MONTH": "Number and amount of transfers per month",
+      "TERM": "Deadline for receipt of the transfer"
+    },
+    "VALUES": {
+      "SENDER": "VISA, Mastercard and Belkart cards of Belarusian banks",
+      "RECIPIENT": "VISA, Mastercard and MIR cards of Belarusian and foreign banks, as well as Belkart",
+      "CURRENCY": "BYN",
+      "FROM_RESIDENT_TO_PARITET": "Is free",
+      "BETWEEN_PARITET": "1% of the transfer amount (minimum 0.99 BYN)",
+      "FROM_PARITET_TO_RESIDENT": "1.4% of the transfer amount (minimum 0.99 BYN)*",
+      "FROM_PARITET_TO_NOT_RESIDENT": "1.5% of the transfer amount (minimum 3.5 BYN)",
+      "MIN_AMOUNT": "1 BYN",
+      "MAX_AMOUNT": "3 000 BYN",
+      "DAY": "No more than 5 transfers for a total amount of 5,000 BYN",
+      "4DAYS": "No more than 15 transfers for a total amount of 15,000 BYN",
+      "MONTH": "No more than 60 transfers for a total amount of 45,000 BYN",
+      "TERM": "To Paritetbank cards - instantly, to cards of other banks - from a few seconds to several days (depending on the bank that issued the card)"
+    }
+  }
+}

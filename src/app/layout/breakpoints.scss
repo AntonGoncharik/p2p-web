@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+@mixin s-screen {
+  @media (max-width: #{$screen-size-s}) {
+    @content;
+  }
+}
+
+@mixin m-screen {
+  @media (max-width: #{$screen-size-m}) {
+    @content;
+  }
+}
+
+@mixin l-screen {
+  @media (max-width: #{$screen-size-l}) {
+    @content;
+  }
+}
+
+@mixin xl-screen {
+  @media (max-width: #{$screen-size-xl}) {
+    @content;
+  }
+}

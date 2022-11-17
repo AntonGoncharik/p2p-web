@@ -1,0 +1,6 @@
+@import '../../../layout/mixins.scss';
+
+.header {
+  @include center-flex();
+  height: 60px;
+}
